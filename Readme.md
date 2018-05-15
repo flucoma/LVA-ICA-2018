@@ -24,7 +24,7 @@ Then run each script in order as needed:
 - python train.py
 - python predict.py
 
-Using a GPU is advised for the train.py script.
+Also create the folders for results as needed. Using a GPU is advised for the train.py script.
 
 For evaluation, the script eval_track.py will evaluate one track, so it can be run in parallel using e.g. GNU parallel:
 
