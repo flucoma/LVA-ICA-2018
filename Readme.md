@@ -16,7 +16,7 @@ The original evaluation used the DSD100 dataset via [dsdtools](https://github.co
 - mir_eval
 
 #### How to use
-The two proposed variabts are in RGT1 and RGT2, corresponding to the SiSEC submissions. The first uses a soft mask and MSE loss, the second uses a 2D softmax loss to predict a binary mask.
+The two proposed variabts are in RGT1 and RGT2, corresponding to the SiSEC submissions. The first uses a soft mask and MSE loss, the second uses negative log likelihood loss with a 2D softmax output to predict a binary mask.
 
 In each directory, configure the dataset path and the analysis path (for temporary analysis files).
 Then run each script in order as needed:
